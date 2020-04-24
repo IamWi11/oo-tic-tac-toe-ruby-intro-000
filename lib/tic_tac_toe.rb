@@ -23,10 +23,8 @@ class TicTacToe
     puts " #{@board[6]} | #{@board[7]} | #{@board[8]} "
   end
 
-require 'pry'
-  def input_to_index(input)
-binding.pry
 
+  def input_to_index(input)
     input.to_i - 1
   end
 
