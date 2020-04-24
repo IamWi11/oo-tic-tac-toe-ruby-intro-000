@@ -22,7 +22,7 @@ class TicTacToe
     puts "-----------"
     puts " #{@board[6]} | #{@board[7]} | #{@board[8]} "
   end
-end
+
 require 'pry'
   def input_to_index(input)
 binding.pry
