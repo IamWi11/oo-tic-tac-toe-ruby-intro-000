@@ -25,9 +25,11 @@ class TicTacToe
 end
 require 'pry'
   def input_to_index(input)
+binding.pry
+
     input.to_i - 1
   end
-binding.pry
+
 def move(index, current_player = "X")
   @board[index] = current_player
 end
